@@ -24,9 +24,7 @@ const Layout = () => {
       <main className="flex-grow p-4 overflow-auto">
         <Outlet />
       </main>
-      <footer className="border-t p-4 text-center">
-        <p className="text-sm text-muted-foreground">© 2023 Your Company. All rights reserved.</p>
-      </footer>
+      
     </div>
   );
 };
